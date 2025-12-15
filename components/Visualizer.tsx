@@ -220,9 +220,9 @@ const Visualizer: React.FC = () => {
                   <text x="160" y="50" fill="#ef4444" fontSize="14" textAnchor="middle" fontWeight="bold">30m Pivot (Expansion)</text>
 
                   <text x="350" y="80" fill="#94a3b8" fontSize="12">
-                     当两个同级别中枢出现重叠(ZG_B &lt; ZD_A or ZD_B &gt; ZG_A?? No, Overlap!)<br/>
-                     Or fluctuations expand the range.<br/>
-                     Level Upgrades: 5m + 5m -> 30m.
+                     <tspan x="350" dy="0">当两个同级别中枢出现重叠(ZG_B &lt; ZD_A or ZD_B &gt; ZG_A?? Overlap!)</tspan>
+                     <tspan x="350" dy="1.4em">Or fluctuations expand the range.</tspan>
+                     <tspan x="350" dy="1.4em">Level Upgrades: 5m + 5m -&gt; 30m.</tspan>
                   </text>
                </svg>
            </div>
